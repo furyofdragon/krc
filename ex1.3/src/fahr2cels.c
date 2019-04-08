@@ -11,6 +11,7 @@ main() {
 	upper = 300;	/* верхняя граница */
 	step = 20;		/* шаг */
 
+	printf("Temperature\nF\tC\n");
 	fahr = lower;
 	while (fahr <= upper) {
 		celsius = (5.0/9.0) * (fahr - 32.0);
